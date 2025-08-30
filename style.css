@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    overflow: hidden; /* 隐藏滚动条 */
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    padding-top: 10%;
+}
+
+h1, h2, p {
+    text-shadow: 0 0 5px #0f0;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #fff;
+}
+
+a:hover {
+    color: #0f0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
